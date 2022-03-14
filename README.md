@@ -1,5 +1,4 @@
 # Telco Customer Churn
-# Exploratory Data Analysis
 ## Case Summary
 
 Objective Statement:
@@ -58,3 +57,7 @@ Data Dictionary
 - Code Used:
 - Python Version: 3.7.12
 - Packages: Pandas, Numpy, Matplotlib, and Seaborn
+
+## Data Cleansing
+- There are no missing value in this data
+- The 'TotalCharge' value is still object, we need to change it to float first
