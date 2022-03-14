@@ -18,14 +18,13 @@ Methodology / Analytic Technique:
 
 Expected Outcome:
 - Know how many how many customer churn.
-- Know what  potential factors that can make customer churn
-- Customer analysis.
+- Know what  potential factors that can make customer churn.
+
 
 ## Business Understanding
 Churn is the percentage of customers that stopped using your company's product or service during a certain time frame. This case has some business question using the data:
 - How many how many customer churn ?
 - What potential factors that can make customer churn ?
-- How about customer analysis ?
 
 ## Data Understanding
 The Telco customer churn data contains information about a fictional telco company that provided home phone and Internet services to 7043 customers in California in Q3. It indicates which customers have left, stayed, or signed up for their service.
@@ -88,6 +87,7 @@ What is the potential factors that can make customer churn ?
 
 ![Screenshot (15)](https://user-images.githubusercontent.com/101379389/158223557-33e0aa18-52bb-4996-8318-3fc9d844e7f8.png)
 
+- The results from using pairplot are :
 - Customer who belong to SeniorCitizen did not churn
 - Customer with higher tenure tend to more loyal (did not churn)
 - Customer that did not Churn have more MonthlyCharges
