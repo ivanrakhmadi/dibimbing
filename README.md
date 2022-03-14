@@ -3,7 +3,7 @@
 
 Objective Statement:
 - Get business insight about how many customer churn.
-- Get business insight about factors that can make customer churn.
+- Get business insight about potential factors that can make customer churn.
 - To predict behavior to retain customers
 
 Challenges:
@@ -18,13 +18,13 @@ Methodology / Analytic Technique:
 
 Expected Outcome:
 - Know how many how many customer churn.
-- Know what factors that can make customer churn
+- Know what  potential factors that can make customer churn
 - Customer analysis.
 
 ## Business Understanding
 Churn is the percentage of customers that stopped using your company's product or service during a certain time frame. This case has some business question using the data:
 - How many how many customer churn ?
-- What factors that can make customer churn ?
+- What potential factors that can make customer churn ?
 - How about customer analysis ?
 
 ## Data Understanding
@@ -64,3 +64,20 @@ Data Dictionary
 - The 'TotalCharge' value is still object, we need to change it to float first
 
 ## Exploratory Data Analysis
+How many how many customer churn ?
+
+![Screenshot (10)](https://user-images.githubusercontent.com/101379389/158145637-8853412b-baf9-4089-9bc7-518fd77c78e0.png)
+
+- According from data above, the customer churn is below 2000 customer from total 7043 customer which is good because company didn't lose much customer. For the next step company will know what steps to do to keep customers to use their services.
+
+What is the potential factors that can make customer churn ?
+
+- We try to add 'gender' as a potential factor for customer churn
+
+![Screenshot (11)](https://user-images.githubusercontent.com/101379389/158149389-a8fcc122-5766-400f-b932-30ea21d5b1cc.png)
+
+- The result from data above shows male and female customers that churn have same result while the male customer that didn't churn have slightly more amount than the female customer that didn't churn
+
+
+
+
