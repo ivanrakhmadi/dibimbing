@@ -30,6 +30,7 @@ Churn is the percentage of customers that stopped using your company's product o
 ## Data Understanding
 The Telco customer churn data contains information about a fictional telco company that provided home phone and Internet services to 7043 customers in California in Q3. It indicates which customers have left, stayed, or signed up for their service.
 - Source data : https://www.kaggle.com/blastchar/telco-customer-churn
+
 Data Dictionary
 - Customer ID 
 - Gender : Whether the customer is a male or a female
@@ -61,3 +62,5 @@ Data Dictionary
 ## Data Cleansing
 - There are no missing value in this data
 - The 'TotalCharge' value is still object, we need to change it to float first
+
+## Exploratory Data Analysis
