@@ -1,4 +1,4 @@
-# Telco Customer Churn
+# Exploratory Data Analysis - Telco Customer Churn
 ## Case Summary
 
 Objective Statement:
@@ -10,8 +10,8 @@ Challenges:
 - Large size of data, can not maintain by excel spreadsheet.
 
 Methodology / Analytic Technique:
-- Descriptive analysis
-- Graph Analysis
+- Univariate analysis
+- Multivariate analysis
  
  Business Benefit:
 - Helping company  to analyze all relevant customer data and develop focused customer retention programs
@@ -78,6 +78,20 @@ What is the potential factors that can make customer churn ?
 
 - The result from data above shows male and female customers that churn have same result while the male customer that didn't churn have slightly more amount than the female customer that didn't churn
 
+
+- For the second try, we try to compare some categories to see if there any correlation between one to another (correlation heatmap)
+![Screenshot (13)](https://user-images.githubusercontent.com/101379389/158218777-14a614b1-c82f-414a-89e0-130fe5b212f0.png)
+
+- Based on result above, we can see that 'TotalCharges' and 'tenure' are highly correlated each other
+
+- Last, we are using pairplot  to look the correlation between the categories
+
+![Screenshot (15)](https://user-images.githubusercontent.com/101379389/158223557-33e0aa18-52bb-4996-8318-3fc9d844e7f8.png)
+
+- Customer who belong to SeniorCitizen did not churn
+- Customer with higher tenure tend to more loyal (did not churn)
+- Customer that did not Churn have more MonthlyCharges
+- Customer that did not Churn have more TotalCharges
 
 
 
