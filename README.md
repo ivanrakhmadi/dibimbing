@@ -4,7 +4,7 @@
 Objective Statement:
 - Get business insight about how many customer churn.
 - Get business insight about potential factors that can make customer churn.
-- To predict behavior to retain customers
+
 
 Challenges:
 - Large size of data, can not maintain by excel spreadsheet.
